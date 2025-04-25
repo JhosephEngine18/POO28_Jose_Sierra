@@ -37,8 +37,10 @@ cout << "Memory location of old pointer z " << pz << "\n";
 cout << "Memory location of new pointer y " << ppy << "\n";
 cout << "Memory location of new pointer z " << ppz << "\n";
 
-cout << "value of y " << &y << "\n";
-cout << "value of z " << &z << "\n";
+
+cout << "--Here now shows each memory location of each pointer and variable--\n";
+cout << "Memory location of value of y " << &y << "\n";
+cout << "Memory location of value of z " << &z << "\n";
 cout << "Memory location of old pointer y " << &py << "\n";
 cout << "Memory location of old pointer z " << &pz << "\n";
 cout << "Memory location of new pointer y " << &ppy << "\n";
